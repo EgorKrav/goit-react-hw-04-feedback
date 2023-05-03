@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import b from  './Notification.module.css';
 
-const Notification = ({ message }) => {
-  return <p className={b}>{message}</p>;
+const Notification = () => {
+  return <p className={b}>There is no feedback</p>;
 };
 
 Notification.propTypes = {
-  message: PropTypes.string.isRequired,
+  message: PropTypes.string,
 };
 
 export default Notification;
